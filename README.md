@@ -216,6 +216,6 @@ cfg.ReceiveEndpoint("order-created-event", e =>
 ```
 
 ### Conclusion
-By following these steps, you have two console applications communicating via MassTransit and RabbitMQ in a producer-consumer model. The producer sends messages (events) to RabbitMQ, and the consumer listens for and processes those messages. This setup demonstrates an event-driven architecture using two separate, decoupled applications. You can extend this system by adding more consumers, improving error handling, and scaling the system as needed.#   M a s s T r a n s i t - E v e n t D r i v e n A r c h i t e c t u r e 
+By following these steps, you have two console applications communicating via MassTransit and RabbitMQ in a producer-consumer model. The producer sends messages (events) to RabbitMQ, and the consumer listens for and processes those messages. This setup demonstrates an event-driven architecture using two separate, decoupled applications. You can extend this system by adding more consumers, improving error handling, and scaling the system as needed.
  
  
